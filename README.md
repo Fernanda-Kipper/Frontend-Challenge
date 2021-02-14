@@ -2,7 +2,7 @@
 
 Esse projeto foi desenvolvido para cumprir o desafio [Estágio Frontend](https://github.com/Send4BR/challenges/blob/main/front-end-estagio.md#desafio-de-est%C3%A1gio-front-end)
 
-📌[Visite o projeto pronto clicando aqui]()
+📌[Visite o projeto pronto clicando aqui](https://frontend-challenge.fernanda-kipper.vercel.app/)
 
 ## Como desenvolvi 🧐
 
