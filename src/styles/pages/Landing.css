@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Landing{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Day{
+  background: linear-gradient(180deg, #9CDCF0 0%, #EAE5BE 100%);
+}
+
+.Night{
+  background: #7B8FA2;
+}
+
+.none{
+  background: #fff;
+}
+
+.Landing header h1{
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.Landing header .SunMoon{
+  height: 30vh;
+}
+
+.Landing header .beggin{
+  position: fixed;
+  left: 100px;
+}
+
+.Landing header .end{
+  position: fixed;
+  top: 100px;
+  right: 20px;
+}
+
+.Landing header .hidden{
+  display: none;
+}
+
+.Landing main{
+  width: 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@media(min-width: 800px){
+
+  .Landing main .building1{
+    height: 40vh;
+    width: 15vw;
+    background: #BBB9B9;
+  }
+
+  .Landing main .building2{
+    height: 50vh;
+    width: 15vw;
+    background: #767676;
+  }
+}

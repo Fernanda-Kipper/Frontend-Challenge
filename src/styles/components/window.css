@@ -1,0 +1,14 @@
+.window{
+    width: 100%;
+    height: 100%;
+
+    align-self: center;
+}
+
+.off{
+    background: #c4c4c4;
+}
+
+.on{
+    background: #F2E959;
+}

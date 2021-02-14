@@ -1,0 +1,20 @@
+.mainBuilding{
+    background: #EDE8E8;
+    height: 70vh;
+    width: 25vh;
+  
+    z-index: 999;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 6);
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+@media(min-width: 800px){
+    .mainBuilding{
+        height: 80vh;
+        width: 20vw;
+    }
+}
