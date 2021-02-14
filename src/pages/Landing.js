@@ -46,7 +46,7 @@ function LandingPage() {
         }
       })
     })
-  }, [])
+  }, [setStatus])
 
   return (
     <div className={`Landing ${day.status}`}>
