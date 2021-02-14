@@ -20,17 +20,19 @@ function LandingPage() {
     navigator.geolocation.getCurrentPosition(function(position) {
       axios.get(`https://api.sunrise-sunset.org/json?lat=${position.coords.latitude}&lng=${position.coords.longitude}&date=today`).then(res => {
         let currentHour = new Date().getUTCHours()
-        let resultsSunrise = res.data.results.sunrise.replace(' ', ':').split(':')
-        let resultsSunset  = res.data.results.sunset.replace(' ', ':').split(':')
+        console.log(res)
+        console.log(currentHour)
+        let resultsSunrise = res.data.results.sunrise.replace(' ', ':').replace('12', '00').split(':')
+        let resultsSunset  = res.data.results.sunset.replace(' ', ':').replace('12','00').split(':')
         if (resultsSunrise[3] === 'PM'){
           resultsSunrise[0] = Number(resultsSunrise[0]) + 12
           resultsSunset[0] = Number(resultsSunset[0])
           if (currentHour < resultsSunrise[0] && currentHour >= resultsSunset[0]){
-            setDay(DayStates.day)
-          }
-          else{
             setDay(DayStates.nigth)
             setStatus('on')
+          }
+          else{
+            setDay(DayStates.day)
           }
         }
         else{
