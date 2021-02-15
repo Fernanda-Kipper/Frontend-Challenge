@@ -4,9 +4,9 @@ Esse projeto foi desenvolvido para cumprir o desafio do processo seletivo [de Es
 
 📌[Visite o projeto pronto clicando aqui](https://frontend-challenge.fernanda-kipper.vercel.app/)📌
 
-## Como desenvolvi 🧐
+## Que tecnologias utilizei 🧐
 
-Para resolver esse desafio utilizei meu conhecimento em HTML, CSS E JavaScript, mais especificamente utilizando o framework [React JS](https://pt-br.reactjs.org/), aplicando conceitos de Hooks como mudanças de estados, contextos etc.
+Para resolver esse desafio utilizei meu conhecimento em HTML, CSS E JavaScript, mais especificamente utilizando o framework [React JS](https://pt-br.reactjs.org/), aplicando conceitos de Hooks como mudanças de estados, contextos etc. Além disso, utilizei a biblioteca [Axios] para realizar a requisição a Sunset API proposto pelo desafio.
 
 ## Como rodar localmente?
 
