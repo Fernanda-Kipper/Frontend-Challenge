@@ -1,4 +1,4 @@
-# Frontend Challenge
+# Frontend Challenge 💻
 
 Esse projeto foi desenvolvido para cumprir o desafio [de Estágio Frontend da Aftersale](https://github.com/Send4BR/challenges/blob/main/front-end-estagio.md#desafio-de-est%C3%A1gio-front-end)
 
