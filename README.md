@@ -3,7 +3,7 @@
 <p align="center">
  <a href="#project">Projeto</a> •
  <a href="#tech">Tecnologias</a> • 
- <a href="#clone">Clone</a> • 
+ <a href="#clone">Clone</a>
 </p>
 
 <h2 id="project">O desafio</h2>
